@@ -84,7 +84,7 @@ const Home = () => {
 
         })
 
-        console.log(loading)
+        
         if (listVideos.length) {
             setLoading(false)
         }
