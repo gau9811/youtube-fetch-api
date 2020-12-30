@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoeui';
+  }
+  
+ .navbar-container{
+   display: flex;
+   align-items: center;
+   background-color: #242B2E;
+   height: 100px;
+   top: 0;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;  
+    z-index: 1;
+    /* overflow-x: hidden;  */
+    padding-top: 20px;
+
+ }
+
+ .navbar-left{
+   
+ }
+
+ .navbar-logo{
+   margin-left: 50px;
+ }
+
+ 
+ .navbar-right{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.navbar-center{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius:25px;
+  width: 450px;
+}
+ .navbar-brand{
+   color: white;
+   margin-left: 10px;
+   margin-top: 10px;
+   font-weight: bolder  ;
+   font-size: 150px;
+ }
+ 
+ .navbar-input{
+    border: none;
+    height: 40px;
+    width: 400px;
+    margin-left: 50px;
+    outline: none;
+    
+  }
+
+.navbar-button{
+  display: flex;
+  align-items: center;
+  height: 20px;
+}

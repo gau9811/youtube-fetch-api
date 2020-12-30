@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+
+
+.Single-video-page{
+    /* overflow-x:hidden;
+    overflow-y:scroll; */
+    width: 100%;
+    background-color: black;
+    height: 8500px;
+}
+.Comment-Title{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+
+.comment-image{
+ margin-bottom: 20px;
+ margin-left: 30px;
+ height: 80px;
+ width: 80px;
+ border-radius: 50%;
+ margin-top: 50px;
+}
+
+.comment-user{
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.comment-input{
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.videoPlay-video{
+  height: 100px;
+}
+
+.side-text{
+  font-size: 10px;
+  padding-top: 10px;
+  
+}
